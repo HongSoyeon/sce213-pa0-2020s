@@ -39,7 +39,7 @@ tokens[3]... = NULL
 
 ### Restrictions
 
-- You **should not use any string manipulation functions from any libraries**. The banned functions include `strtok, strtok_r, strlen, fscanf` and/or similars. This implies that you should implement your own string manipulation functions if it is needed. **You will get 0 point if you use any of them**. Note that `malloc()` and `free()` are not string manipulation functions and OK to use. If unsure, question to TA/professor through AjouBb.
+- You **should not use any string manipulation functions from any libraries**. The banned functions include `strtok, strtok_r, strlen, strcpy, fscanf` and/or similars. This implies that you should implement your own string manipulation functions if it is needed. **You will get 0 point if you use any of them**. Note that `malloc()` and `free()` are not string manipulation functions and OK to use. If unsure, question to TA/professor through AjouBb.
 - Use `isspace()` C library function to check whether the character can be assumed as a whitespace.
 - Printing messages to stand output (e.g., `printf()`) is totally OK. However, do not `fprintf(stderr ...)` otherwise the grading system cannot grade your submission properly.
 
