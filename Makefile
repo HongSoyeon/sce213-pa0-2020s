@@ -14,3 +14,8 @@ pa0: pa0.o
 .PHONY: clean
 clean:
 	rm -f $(TARGET) *.o
+
+.PHONY: test
+test: pa0
+	./$< input
+
