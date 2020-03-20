@@ -62,7 +62,7 @@ tokens[3]... = NULL
 
 ### Tips and Notes
 
-- Briefly speaking, the implementation might look like; start scanning from the beginning of `command` skipping all whitespaces until meet a non-whitespace character. That will be the beginning of the token. Then, resume scanning until meet any whitespace character (' ' or '`\t`'). That will be the end of the token. Repeat this until entire `command` is scanned. Slight modification is required to handle the quotation marks. Assign the starting position of each token into `tokens[]` and count `nr_tokens` accordingly.
+- Briefly speaking, the implementation might look like; start scanning from the beginning of `command` skipping all whitespaces until meet a non-whitespace character. That will be the beginning of the token. Then, resume scanning until meet any whitespace character. That will be the end of the token. Repeat this until entire `command` is scanned. Slight modification is required to handle the quotation marks. Assign the starting position of each token into `tokens[]` and count `nr_tokens` accordingly.
 - Read comments in the skeleton code carefully.
 - Make sure every string is terminated with '\0'.
 - Post freely on QnA board on AjouBb to question about the project.
